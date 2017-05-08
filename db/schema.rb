@@ -14,8 +14,11 @@ ActiveRecord::Schema.define(version: 20170503184929) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
-
-  create_table "questions", force: :cascade do |t|
+  
+  create_table   "questions", force: :cascade do |t|
+    t.string     "name"
+    t.string     "content", null: false
+    t.timestamps "updated_at", null: false	
   end
 
 end
