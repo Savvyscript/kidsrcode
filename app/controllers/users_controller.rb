@@ -10,7 +10,7 @@ class UsersController < ApplicationController
     @user = User.find(params[:id])
     @questions = @user.questions
   end
- end
+ 
 
  def new
  	
