@@ -4,7 +4,7 @@ Rails.application.routes.draw do
  }
 
 root to: "users#index"
-get '*path', to: 'client#index'
+get '*path', to: 'users#index'
 
   resources :users
 
