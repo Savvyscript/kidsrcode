@@ -3,7 +3,7 @@ class UsersController < ApplicationController
 
 
  def index
-  	@users = Users.all
+  	@users = User.all
  end 
 
  def show
@@ -31,7 +31,8 @@ class UsersController < ApplicationController
  def destroy
 
  end
-
 end
+
+
 
  
