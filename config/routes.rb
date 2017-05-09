@@ -8,10 +8,11 @@ root to: "users#index"
 # get '*path', to: 'users#index'
 
 root "static_pages#home"
+
       
   resources :users
 
-  resources :sessions, only: [:new, :create, :destroy]  
+  
 
   resources :questions do
     resources :question_choices
