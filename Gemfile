@@ -32,6 +32,7 @@ gem 'angular_rails_csrf'
 gem 'font-awesome-rails'
 gem 'materialize-sass'
 
+
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password

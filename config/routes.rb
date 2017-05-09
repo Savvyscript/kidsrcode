@@ -5,10 +5,10 @@ Rails.application.routes.draw do
 
  
 root to: "users#index"
-get '*path', to: 'users#index'
+# get '*path', to: 'users#index'
 
 root "static_pages#home"
-
+      
   resources :users
 
   resources :sessions, only: [:new, :create, :destroy]  
@@ -16,17 +16,12 @@ root "static_pages#home"
   resources :questions do
     resources :question_choices
   end
-end
 
-#   resources :users
-#   resources :user_answers
-#    end
-# end
+  get 'home' => 'static_pages#home'
+get 'about' => 'static_pages#about'
+get 'faqs' => 'static_pages#faqs'
+    end
 
-
-  # resources :questions do
-  #   resources :answers
-  # end
 
 
 
