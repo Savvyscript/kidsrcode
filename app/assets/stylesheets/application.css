@@ -22,4 +22,31 @@
 
 body {
     padding-top: 60px;
+    
+}  
+
+html { 
+  background: url(http://data.whicdn.com/images/86597965/large.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
+
+#container {
+    background-image:url(http://data.whicdn.com/images/86597965/large.jpg);
+    background-position:center;
+    width:700px;
+    height:400px;
+}
+
+#bg {
+  position: right; 
+  top: 0; 
+  left: 0; 
+	
+  /* Preserve aspet ratio */
+  min-width: 50%;
+  min-height: 50%;
+} 
+
