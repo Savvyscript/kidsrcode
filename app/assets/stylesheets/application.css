@@ -249,10 +249,12 @@ html {
 }
 
 .ca-menu li:hover{
-    background: red;
-    border-color: teal;
+    background: yellow;
+    border-color: blue;
     transform: rotate(360deg);
 }
+
+
 .ca-menu li:hover .ca-icon{
     color: #555;
     font-size: 60px;
@@ -264,6 +266,55 @@ html {
 .ca-menu li:hover .ca-sub{
     opacity: 0.8;
 }
+
+
+.ca-menu1 {
+    padding: 0;
+    margin: 20px auto;
+    width: 500px;
+}
+
+.ca-menu1 li{
+    width: 200px;
+    height: 200px;
+    border: 10px solid #f6f6f6;
+    overflow: hidden;
+    position: relative;
+    float:left;
+    background: #fff;
+    margin-right: 4px;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    border-radius: 125px;
+    transition: all 400ms linear;
+}
+
+.ca-menu1 li:hover{
+    background: yellow;
+    border-color: red;
+    transform: rotate(360deg);
+}
+
+
+.ca-menu1 li:hover .ca-icon{
+    color: #555;
+    font-size: 60px;
+
+}
+.ca-menu1 li:hover .ca-main{
+    display: none;
+}
+.ca-menu1 li:hover .ca-sub{
+    opacity: 0.8;
+}
+
+
+
+
+
+
+
+
+
 
 
 
