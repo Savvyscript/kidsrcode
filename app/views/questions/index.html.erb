@@ -14,7 +14,20 @@
 <% @questions.each_with_index do |question, index| %>
 		   <div><%=index +1 %>. <%= question['question'] %></div>
 		    <br>
-	    <div><%= radio_button("question", "question_type",) %></div>
+				   <div>  1.'answer'
+		              <input id="gender_male" name="answer <%= index %>" type="radio" value="answer" /></div>
+		              <br>
+		           <div>  2.'answer'
+		              <input id="gender_male" name="answer <%= index %>" type="radio" value="answer" /></div>
+		              <br>
+		           <div>  3.'answer' 
+		              <input id="gender_male" name="answer <%= index %>" type="radio" value="answer" /></div>
+		              <br>
+		           <div>  4.'answer'
+		              <input id="gender_male" name="answer <%= index %>" type="radio" value="answer" /></div>
+		              <br>
+		              <br>
+		             
 
 			<%    end    %>
        
