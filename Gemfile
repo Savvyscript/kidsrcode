@@ -9,6 +9,7 @@ ruby "2.4.1"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.2'
+gem 'pry-rails'
 
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 0.18'
@@ -31,6 +32,7 @@ gem 'devise'
 gem 'angular_rails_csrf'
 gem 'font-awesome-rails'
 gem 'materialize-sass'
+gem 'httparty', '~> 0.14.0' 
 
 
 # Use Redis adapter to run Action Cable in production

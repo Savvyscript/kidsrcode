@@ -45,7 +45,7 @@ a {
 
 .container {
   @include clearfix;
-  margin: 0 20px;
+  margin:  100px;
 }
 
 .site-content {
@@ -190,8 +190,8 @@ html {
 }
 
 #container {
-    background-image:url(http://data.whicdn.com/images/86597965/large.jpg);
-    background-position:center;
+/*    background-image:url(http://data.whicdn.com/images/86597965/large.jpg);
+*/    background-position:center;
     width:800px;
     height:500px;
 }
@@ -209,12 +209,13 @@ html {
 
 #bg {
   position: right; 
-  top: 0; 
-  left: 0; 
+  top: 100px; 
+  left: 10px;
 	
   /* Preserve aspet ratio */
   min-width: 50%;
-  min-height: 50%;
+  min-height:50%;
+  
 } 
 
 @font-face {
@@ -228,6 +229,13 @@ html {
     font-style: normal;
 }
 
+.category {
+position:relative;
+display: inline-block;
+float:right;
+padding:10px;
+}
+
 .ca-menu{
     padding: 0;
     margin: 20px auto;
@@ -235,8 +243,8 @@ html {
 }
 
 .ca-menu li{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border: 10px solid #f6f6f6;
     overflow: hidden;
     position: relative;
@@ -245,13 +253,13 @@ html {
     margin-right: 4px;
     box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
     border-radius: 125px;
-    transition: all 400ms linear;
+    transition: all 1000ms linear;
 }
 
 .ca-menu li:hover{
     background: yellow;
     border-color: blue;
-    transform: rotate(360deg);
+    transform: rotate(720deg);
 }
 
 
@@ -275,8 +283,8 @@ html {
 }
 
 .ca-menu1 li{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border: 10px solid #f6f6f6;
     overflow: hidden;
     position: relative;
@@ -285,13 +293,13 @@ html {
     margin-right: 4px;
     box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
     border-radius: 125px;
-    transition: all 400ms linear;
+    transition: all 1000ms linear;
 }
 
 .ca-menu1 li:hover{
     background: yellow;
     border-color: red;
-    transform: rotate(360deg);
+    transform: rotate(720deg);
 }
 
 
@@ -306,6 +314,48 @@ html {
 .ca-menu1 li:hover .ca-sub{
     opacity: 0.8;
 }
+
+
+.ca-menu2 {
+    padding: 0;
+    margin: 20px auto;
+    width: 500px;
+}
+
+.ca-menu2 li{
+    width: 150px;
+    height: 150px;
+    border: 10px solid #f6f6f6;
+    overflow: hidden;
+    position: relative;
+    float:left;
+    background: #fff;
+    margin-right: 4px;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    border-radius: 125px;
+    transition: all 1000ms linear;
+}
+
+.ca-menu2 li:hover{
+    background: yellow;
+    border-color: orange;
+    transform: rotate(720deg);
+}
+
+
+.ca-menu2 li:hover .ca-icon{
+    color: #555;
+    font-size: 60px;
+
+}
+.ca-menu2 li:hover .ca-main{
+    display: none;
+}
+.ca-menu2 li:hover .ca-sub{
+    opacity: 0.8;
+}
+
+
 
 
 
