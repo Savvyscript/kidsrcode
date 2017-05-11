@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>project5</title>
+    <%= csrf_meta_tags %>
+
+   <%= stylesheet_link_tag    'application', media: 'all' %>
+    <%= javascript_include_tag 'application' %>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  </head>
+
+ <body ng-app="kidsrcode">
+
+
+   
+    <!--  <ul class="nav nav-pills right">
+        <li><%= link_to "Home", root_path %></li>
+        <% if user_signed_in? %>
+          <li><%= link_to 'Sign out', destroy_user_session_path, method: 'delete', target: '_self' %></li>  
+        <% else %>
+          <li><%= link_to "Sign Up", new_user_registration_path, target: '_self' %></li>
+          <li><%= link_to "Sign In", new_user_session_path, target: '_self' %></li>
+        <% end %>
+          
+     </ul> -->
+
+     
+  
+<ul class="nav nav-tabs" style="font-family: 'Raleway', sans-serif; font-size: 20px;">
+  <li class="home" role="presentation"><%= link_to "Home", root_path %></li>
+  <li class="logout"><%= link_to 'Sign out', destroy_user_session_path, method: 'delete', target: '_self' %></li>
+  <li class="logup" role="presentation"><%= link_to "Sign Up", new_user_registration_path, target: '_self' %></li>
+  <li class="login" role="presentation"><%= link_to "Sign In", new_user_session_path, target: '_self' %></li>
+  
+</ul>
+  
+ 
+   
+ 
+
+
+   <p class="notice"><%= notice %></p>
+    <p class="alert"><%= alert %></p>
+
+   
+
+   <ui-view></ui-view>
+  </body>
+</html>

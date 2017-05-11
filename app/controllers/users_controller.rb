@@ -40,6 +40,15 @@ class UsersController < ApplicationController
       params.require(:user).permit(:name, :email, :password,
                                    :password_confirmation)
     end
+
+    def all_timestamp_attributes_in_model
+  timestamp_attributes_for_create_in_model + timestamp_attributes_for_update_in_model
+  end
 end
+
+
+
+
+
 
  

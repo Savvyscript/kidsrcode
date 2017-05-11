@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   get 'users/new'
 
  
-root to: "users#index"
+root to: "client#index"
 # get '*path', to: 'users#index'
 
 root "static_pages#home"

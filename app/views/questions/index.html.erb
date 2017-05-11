@@ -6,30 +6,54 @@
 
 
 
- <h1> Questions </h1>
-<style type="text/css">
-.vertical { background-color: yellow; }
-</style>
+ <div class="top"><h1> Questions </h1></div>
 
-<% @questions.each_with_index do |question, index| %>
-		   <div><%=index +1 %>. <%= question['question'] %></div>
-		    <br>
-				   <div>  1.'answer'
-		              <input id="gender_male" name="answer <%= index %>" type="radio" value="answer" /></div>
-		              <br>
-		           <div>  2.'answer'
-		              <input id="gender_male" name="answer <%= index %>" type="radio" value="answer" /></div>
-		              <br>
-		           <div>  3.'answer' 
-		              <input id="gender_male" name="answer <%= index %>" type="radio" value="answer" /></div>
-		              <br>
-		           <div>  4.'answer'
-		              <input id="gender_male" name="answer <%= index %>" type="radio" value="answer" /></div>
-		              <br>
-		              <br>
-		             
 
-			<%    end    %>
+
+     <div class="table">
+    
+		<% @questions.each_with_index do |question, index| %>
+				   <div><%=index +1 %>. <%= question['question'] %></div>
+				    <br>
+						   <div>  1.'answer'
+				              <input id="gender_male" name="answer <%= index %>" type="radio" value="answer" /></div>
+				              <br>
+				           <div>  2.'answer'
+				              <input id="gender_male" name="answer <%= index %>" type="radio" value="answer" /></div>
+				              <br>
+				           <div>  3.'answer' 
+				              <input id="gender_male" name="answer <%= index %>" type="radio" value="answer" /></div>
+				              <br>
+				           <div>  4.'answer'
+				              <input id="gender_male" name="answer <%= index %>" type="radio" value="answer" /></div>
+				              <br>
+				              <br>
+
+					<%    end    %>
+
+		</div>			
+
+<!-- 
+			<div class="card card-inverse card-warning mb-3 text-center">
+  <div class="card-block">
+    <blockquote class="card-blockquote">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+      <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+    </blockquote>
+  </div>
+</div>
+
+ -->
+
+
+
+
+
+
+
+
+
+
        
     
   
