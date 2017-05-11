@@ -7,6 +7,7 @@
      <%= javascript_include_tag 'application' %>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
   <link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet'>
+   <link rel="stylesheet" href="animate.min.css">
 </head>
 
 <div class="site-container">
@@ -72,10 +73,20 @@
 
           <div id="kids">
              
-             <h1>Kids R Code</h1>
-             <img src="https://i.imgur.com/7ORJMVw.png" alt="Logo">
+        <h1 class="animated infinite bounce">Kids R Code</h1>
+
+             <img src="http://www.logomakr.com/6akqRF" alt="Logo">
              
           </div>
+
+            <div id="racer">
+             
+        <h1 class="animated infinite ">Coding is Fun!!!</h1>
+
+             <img src="http://www." alt="">
+             
+          </div>
+
 
 
          <div id="container">
@@ -84,11 +95,9 @@
         
         </div>
 
-
   <div id="container">
 
   <div>
-
         <p class="navbar-text pull-right">
           <% if user_signed_in? %>
             Logged in as <strong><%= current_user.email %></strong>.

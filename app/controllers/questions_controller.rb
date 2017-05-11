@@ -11,4 +11,12 @@ class QuestionsController < ApplicationController
   def questions_response
   	 HTTParty.get('https://opentdb.com/api.php?amount=10&category=18&difficulty=easy&type=multiple')
   end
+
+  def f
+  	@labels = labels_response['']
+
+  end
+
+
+
 end
