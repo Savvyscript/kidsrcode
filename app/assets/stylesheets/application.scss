@@ -51,16 +51,18 @@ html {
     color: teal;
     position: center;
     position: absolute;
-    top: 50px;
-    left: 200px;
+    top: 100px;
+    right: 150px;
     display: flex;
     flex-direction: row;
 
 }
 
 #racer {
-       color: green ;
+       color: red;
        font-family: times;
+       left: 300px;
+       display: flex;
 
 }
 
@@ -79,6 +81,10 @@ html {
   min-height: 60%;
   
 } 
+ .logo {
+  
+
+ }
 
 
 .top {
@@ -233,39 +239,51 @@ padding:10px;
 .animated.infinite {
   animation-iteration-count: infinite;
 }
-
- @keyframes bounce {
-  from, 20%, 53%, 80%, to {
-    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-    transform: translate3d(0,0,0);
+@keyframes pulse {
+  from {
+    transform: scale3d(1, 1, 1);
   }
 
-  40%, 43% {
-    animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
-    transform: translate3d(0, -30px, 0);
+  50% {
+    transform: scale3d(1.05, 1.05, 1.05);
   }
 
-  70% {
-    animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
-    transform: translate3d(0, -15px, 0);
-  }
-
-  90% {
-    transform: translate3d(0,-4px,0);
+  to {
+    transform: scale3d(1, 1, 1);
   }
 }
 
-
-.bounce {
-  animation-name: bounce;
-  transform-origin: center bottom;
+.pulse {
+  animation-name: pulse;
 }
-
 
 .top {
   
   color: FFD433;
 
+}
+
+
+.animated1 {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+
+
+@keyframes slideInLeft {
+  from {
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.slideInLeft {
+  animation-name: slideInLeft;
 }
 
 
