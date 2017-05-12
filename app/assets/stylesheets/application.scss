@@ -84,6 +84,7 @@ html {
       color: orange;
       font-family: times;
       float: right;
+    
 
 }    
 
@@ -95,13 +96,13 @@ html {
   left: 200px;
   margin-left: 200px;
   margin-top: 200px;
-
 	
   /* Preserve aspet ratio */
   min-width:  60%;
   min-height: 60%;
   
 } 
+
  .logo.resize {
   left: 10px;
   
@@ -113,7 +114,15 @@ html {
   
   color: #FF3368;
   font-family: times;
+  float: center;
   
+}
+
+.table {
+     display:flex;
+     float:right;
+     position:center; 
+     right: 10px; 
 }
 
 @font-face {
