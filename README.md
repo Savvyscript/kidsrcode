@@ -1,28 +1,42 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# 🌆 [KidsRCode](https://limitless-ravine-87224.herokuapp.com/)
+A Ruby on Rails app where kids can view and get a fun star to coding.
 
-Things you may want to cover:
+## Getting Started
+NOTE: Ruby (2.4.1), Rails (5.0.2), Angular and PostgreSQL all were installed
 
-* Ruby version
+1. Clone this repo
+2. Enter `bundle install`
+3. Enter `rails s`
+4. Visit localhost:3000 
 
-##
+## Features
+- Users can sign up and sign in
+- Users can view a fun envirornment with terms and visual aids
+- Users can visit a page for a specific city
+- Users can view tips for specific cities
+- Users can create their own avatar
+- Users can answer questions on basic computer and coding
+- Users can edit and delete their accounts
 
-* System dependencies
+## Technologies
+- Server side rendering via Ruby on Rails backend
+- User authentication by [Devise](https://github.com/plataformatec/devise)
+- Responsive design by [Bootstrap](http://getbootstrap.com/)
+- CSS animations  [Animation.css](https://daneden.github.io/animate.css/)
 
-* Configuration
 
-* Database creation
+## ERD
 
-* Database initialization
+![KidsRCode ERD](https://www.lucidchart.com/documents/edit/f2efc2a0-14b4-45bf-ad0e-ba5469bfe590)
 
-* How to run the test suite
+## User Stories
 
-* Services (job queues, cache servers, search engines, etc.)
+[Trello Board](https://trello.com/b/fvWL40PC/project-5-kidsrcode)
 
-* Deployment instructions
+-  
 
-* ...
+
 
 logomakr.com/6akqRF

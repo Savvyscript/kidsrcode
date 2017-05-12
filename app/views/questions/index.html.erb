@@ -8,30 +8,39 @@
 
  <div class="top"><h1> Questions </h1></div>
 
-
+ 
 
      <div class="table">
-    
+    				
 		<% @questions.each_with_index do |question, index| %>
 				   <div><%=index +1 %>. <%= question['question'] %></div>
 				    <br>
 						   <div>  1.'answer'
-				              <input id="gender_male" name="answer <%= index %>" type="radio" value="answer" /></div>
-				              <br>
-				           <div>  2.'answer'
-				              <input id="gender_male" name="answer <%= index %>" type="radio" value="answer" /></div>
-				              <br>
+				              <input id="gender_male" name=" <%= index %>" type="radio" value="APPLE" />
+				           </div>
+				           <br>
+				           <div>  
+					           	2.'answer'
+					             <input id="gender_male" name="answer <%= index %>" type="radio" value="Google" />
+				            </div>
+
+				           <br>
+
 				           <div>  3.'answer' 
-				              <input id="gender_male" name="answer <%= index %>" type="radio" value="answer" /></div>
-				              <br>
-				           <div>  4.'answer'
-				              <input id="gender_male" name="answer <%= index %>" type="radio" value="answer" /></div>
-				              <br>
+				              <input id="gender_male" name="answer <%= index %>" type="radio" value="HTML" />
+				            </div>
+
 				              <br>
 
+				           <div>  
+				           4.'answer'
+				              <input id="gender_male" name="answer <%= index %>" type="radio" value="CSS" />
+				            </div>
+				              <br>
+				              <br>
 					<%    end    %>
 
-		</div>			
+	</div>			
 
 <!-- 
 			<div class="card card-inverse card-warning mb-3 text-center">

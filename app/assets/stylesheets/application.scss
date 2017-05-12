@@ -124,11 +124,10 @@ html {
 
 .table {
      display:flex;
-     float:colu;
+     float:column;
+     flex-wrap: wrap;
      position:center; 
-     right: 10px;
-
-
+     width:800px;
 }
 
 @font-face {
