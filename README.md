@@ -1,7 +1,7 @@
 # README
 
-# 🌆 [KidsRCode](https://limitless-ravine-87224.herokuapp.com/)
-A Ruby on Rails app where kids can view and get a fun star to coding.
+# [KidsRCode](https://limitless-ravine-87224.herokuapp.com/)
+A Ruby on Rails app where kids can view and get a fun start to coding.
 
 ## Getting Started
 NOTE: Ruby (2.4.1), Rails (5.0.2), Angular and PostgreSQL all were installed
@@ -14,8 +14,8 @@ NOTE: Ruby (2.4.1), Rails (5.0.2), Angular and PostgreSQL all were installed
 ## Features
 - Users can sign up and sign in
 - Users can view a fun envirornment with terms and visual aids
-- Users can visit a page for a specific city
-- Users can view tips for specific cities
+- Users can see fun animated terms
+- Users can also watch links for continued learning
 - Users can create their own avatar
 - Users can answer questions on basic computer and coding
 - Users can edit and delete their accounts
