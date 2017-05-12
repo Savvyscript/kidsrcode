@@ -77,6 +77,8 @@ html {
      display: flex;
      float: right;
      font-family: times;
+     margin-left: 675px ;
+     margin-top: -475px;
 }    
 
 #fun {
@@ -84,6 +86,8 @@ html {
       color: orange;
       font-family: times;
       float: right;
+      margin-top:- 475px;
+      margin-right: 500px;
     
 
 }    
@@ -120,9 +124,11 @@ html {
 
 .table {
      display:flex;
-     float:right;
+     float:colu;
      position:center; 
-     right: 10px; 
+     right: 10px;
+
+
 }
 
 @font-face {
@@ -141,7 +147,7 @@ position:relative;
 display: inline-block;
 float:right;
 padding:50px;
-top:200px;
+top:400px;
 }
 
 .ca-menu{

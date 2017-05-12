@@ -9,8 +9,10 @@ class Question < ApplicationRecord
 
   def self.create_questions
      questions = HTTParty.get('https://opentdb.com/api.php?amount=10&category=18&difficulty=easy&type=multiple')
-     
+      
   end
+
+  
 end
   
  
