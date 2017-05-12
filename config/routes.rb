@@ -6,6 +6,7 @@ Rails.application.routes.draw do
  
 root to: "client#index"
 # get '*path', to: 'users#index'
+ 
 
 root "static_pages#home"
 

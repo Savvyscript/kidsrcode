@@ -37,7 +37,9 @@
 <br>
 <br>
 
-<% if user_signed_in? %>
+      <% if user_signed_in? %>
+
+      <%= link_to "HOME", root_path %>
 
 <button class="btn btn-success"><%= link_to "questions", questions_path %></button>
 
