@@ -37,4 +37,4 @@ NOTE: Ruby (2.4.1), Rails (5.0.2), Angular and PostgreSQL all were installed
 
 
 
-logomakr.com/6akqRF
+[Logo] logomakr.com/6akqRF
