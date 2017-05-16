@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kidsrcode</title>
+     <%= stylesheet_link_tag  'application', media: 'all'  %>
+     <%= csrf_meta_tags %>
+     <%= javascript_include_tag 'application' %>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet'>
+   <link rel="stylesheet" href="animate.min.css">
+</head>
+
+<div class="site-container">
+  <div class="site-pusher">
+    
+    <header class="header">
+      
+      <a href="#" class="header__icon" id="header__icon"></a>
+      
+      <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+  <nav class="menu">
+        <a href"home"><h3>Home</h3></a>
+        <a href="#"><h3>About</h3></a>
+        <a href="#"><h3>Contact</h3></a>
+      </nav>
+    ...
+  </div>
+
+      
+    </header>
+    <br>s
+    <br>
+   
+         
+  <body>  
+<!-- 
+            <div class="card" style="width: 30rem;">
+            <img class="card-img-top" src="http://imageshack.com/a/img923/408/LgIH38.jpg" alt="Card image cap">
+            <div class="card-block">
+              <h4 class="card-title">Card title</h4>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div
+             -->
+
+         <div align="center" class="category">           
+              <ul class="ca-menu">
+                    <li>
+                      <a href="#">
+                        <span class="ca-icon">A</span>
+                        <div class="ca-content">
+                          <h2 class="ca-main">  Kids R Code  </h2>
+                          <h3 class="ca-sub">A fun start to coding</h3>
+                        </div>
+                      </a>
+                    </li>
+              </ul>
+
+              <ul class="ca-menu1">
+                    <li>
+                      <a href="#">
+                        <span class="ca-icon">B</span>
+                        <div class="ca-content">
+                          <h2 class="ca-main">  FUN LEARNING  </h2>
+                          <h3 class="ca-sub"> EXCITING & NEW</h3>
+                        </div>
+                      </a>
+                    </li>
+              </ul>
+
+               <ul class="ca-menu2">
+                    <li>
+                      <a href="#">
+                        <span class="ca-icon">C</span>
+                        <div class="ca-content">
+                          <h2 class="ca-main">  SKILLS FOR  </h2>
+                          <h3 class="ca-sub"> A LIFETIME  </h3>
+                        </div>
+                      </a>
+                    </li>
+              </ul>
+        </div>
+          
+
+     <!--  <img src="http://creativecomputer.in/Images/value-added-services.png" id="bg" alt=""> -->
+
+          <div id="kids">
+             
+        <h1 class="animated infinite bounce">Kids R Code</h1></div>
+
+          <img ng-src="http://imageshack.com/a/img923/408/LgIH38.jpg" alt="Logo">
+             
+        
+
+            <div id="racer">
+             
+        <h1 class="animated infinite ">Coding is Fun!!!</h1>
+
+             <img ng-src="public/codekids.jpg" alt="icon">
+             
+          </div>
+
+          
+
+         <div id="container">
+
+        
+        </div>
+
+  <div id="container">
+
+  <!-- <div>
+        <p class="navbar-text pull-right">
+          <% if user_signed_in? %>
+            Logged in as <strong><%= current_user.email %></strong>.
+            <%= link_to 'Edit profile', edit_user_registration_path, :class => 'navbar-link' %> |
+            <%= link_to "Logout", destroy_user_session_path, method: :delete, :class => 'navbar-link'  %>
+          <% else %>
+            <%= link_to "Sign up", new_user_registration_path, :class => 'navbar-link'  %> |
+            <%= link_to "Login", new_user_session_path, :class => 'navbar-link'  %>
+          <% end %>
+          </p>
+     </div> -->
+
+    <%= link_to "HOME", root_path %>
+    <%= yield %>
+   </div>
+
+  
+ 
+  </body>
+</html>
