@@ -31,10 +31,13 @@ NOTE: Ruby (2.4.1), Rails (5.0.2), Angular and PostgreSQL all were installed
 
 ![KidsRCode ERD](https://i.imgur.com/ysVZB8v.png)
 
+## Wire Frame
+
+
 ## User Stories
 
 [Trello Board](https://trello.com/b/fvWL40PC/project-5-kidsrcode)
 
 
 
-[Logo] logomakr.com/6akqRF
+

@@ -1,7 +1,7 @@
 require_relative 'boot'
 
 require 'rails/all'
-config.assets.initialize_on_precompile = false
+
 
 Bundler.require(*Rails.groups)
 
@@ -13,6 +13,8 @@ end
 module AngularOnRails
   class Application < Rails::Application
     config.assets.paths << Rails.root.join('node_modules')
+    config.assets.initialize_on_precompile = false
+    config.serve_static_assets = true
 
   end
 end
