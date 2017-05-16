@@ -29,7 +29,7 @@ NOTE: Ruby (2.4.1), Rails (5.0.2), Angular and PostgreSQL all were installed
 
 ## ERD
 
-![KidsRCode ERD](http://bit.ly/2pGxC71)
+![KidsRCode ERD](https://i.imgur.com/ysVZB8v.png)
 
 ## User Stories
 
