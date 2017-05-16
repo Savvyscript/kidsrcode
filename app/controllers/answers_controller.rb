@@ -1,3 +1,3 @@
-class AnswersController < ApplicationController
-  before_action :authenticate_user!
+# class AnswersController < ApplicationController
+#   before_action :authenticate_user!
 
