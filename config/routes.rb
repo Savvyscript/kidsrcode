@@ -5,7 +5,7 @@ Rails.application.routes.draw do
 
  
 root to: "client#index"
-# get '*path', to: 'users#index'
+
  
 
 root "static_pages#home"
@@ -19,9 +19,9 @@ root "static_pages#home"
     resources :question_choices
   end
 
-  get 'home' => 'static_pages#home'
-get 'about' => 'static_pages#about'
-get 'faqs' => 'static_pages#faqs'
+	  get 'home' => 'static_pages#home'
+	  get 'about' => 'static_pages#about'
+	  get 'faqs' => 'static_pages#faqs'
     end
 
 
