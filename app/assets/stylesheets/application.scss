@@ -40,6 +40,21 @@ html {
   background-size: cover;
 }
 
+.navtabs {
+      padding-left: 15px;
+      border-bottom: 1px solid;
+
+}
+
+.flex-item {
+  padding: 10px;
+}
+
+.h2 {
+
+    margin-top: 10px;
+}
+
 #container {
     background-image:url(http://data.whicdn.com/images/86597965/large.jpg);
     background-position:cover;
@@ -122,7 +137,7 @@ html {
   
 }
 
-.table {
+#table {
      display:flex;
      float:column;
      flex-wrap: wrap;

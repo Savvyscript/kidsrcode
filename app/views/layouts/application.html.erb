@@ -16,26 +16,25 @@
     <header class="header">
       
       <a href="#" class="header__icon" id="header__icon"></a>
-      
-         
-    <ul class="nav nav-tabs" style="font-family: 'Raleway', sans-serif; font-size: 20px;">
-    <li class="home" role="presentation"><%= link_to "Home", root_path %></li>
+     </div> 
 
-    <li class="login" role="presentation"><%= link_to "Log In", new_user_session_path, target: '_self' %></li>
-    <li class="logup" role="presentation"><%= link_to "Sign Up", new_user_registration_path, target: '_self' %></li>
-    <li class="logout"><%= link_to 'Sign out', destroy_user_session_path, method: 'delete', target: '_self' %></li>
-   
-    
-  </ul>
+     <div class="navtabs"> 
+             
+        <ul class="nav nav-tabs" style="font-family: 'Raleway'>, sans-serif; font-size: 20px;">
+            <li class="flex-item"><%= link_to "Home", root_path %></li>
+
+            <li class="flex-item"><%= link_to "Log In", new_user_session_path, target: '_self' %></li>
+            <li class="flex-item"><%= link_to "Sign Up", new_user_registration_path, target: '_self' %></li>
+            <li class="flex-item"><%= link_to 'Sign out', destroy_user_session_path, method: 'delete', target: '_self' %></li>
+         </ul>
+  </div>
   
   <div class="container"><div>
   
       
     </header>
     <br>
-    <br><!-- 
-             <img class="card-img-top" src="https://i0.wp.com/stemlynsblog.org/wp-content/uploads/2012/08/chf-cartoon-kids.png">  -->
-
+    <br>
 
     <div class="logo">
                         <img class="card-img-top" src="http://imageshack.com/a/img923/408/LgIH38.jpg"  width="200" height="50" ></div>
@@ -94,9 +93,6 @@
         </div>
           
 
-     <!--  <img src="http://creativecomputer.in/Images/value-added-services.png" id="bg" alt=""> -->
-<!--           <img src="http://codeteachers.com/wp-content/uploads/2016/03/kids-coding.png">
- -->
           
           <div id="kids">
 
@@ -110,12 +106,7 @@
         <h1 class="animated infinite hinge ">Code Will break</h1></div>
 
            <br>
-         
-        <!--      <div id="fun">
-
-        <h1 class="animated infinite slideInRight ">"Hello World"</h1></div>
- -->
-
+     
             <div id="racer">
              
         <h1 class="animated infinite slideInLeft">Coding Made Fun!!!</h1>
@@ -137,20 +128,7 @@
 
   <div id="container">
 
-  <!-- <div>
-        <p class="navbar-text pull-right">
-          <% if user_signed_in? %>
-            Logged in as <strong><%= current_user.email %></strong>.
-            <%= link_to 'Edit profile', edit_user_registration_path, :class => 'navbar-link' %> |
-            <%= link_to "Logout", destroy_user_session_path, method: :delete, :class => 'navbar-link'  %>
-          <% else %>
-            <%= link_to "Sign up", new_user_registration_path, :class => 'navbar-link'  %> |
-            <%= link_to "Login", new_user_session_path, :class => 'navbar-link'  %>
-          <% end %>
-          </p>
-     </div> -->
-
-     <button class="btn btn-success"><%= link_to "questions", questions_path %></button>
+ 
 
  <%= yield %>
    </div>
